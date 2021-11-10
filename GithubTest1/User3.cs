@@ -8,5 +8,10 @@ namespace GithubTest1
 {
     class User3
     {
+        public static string GetName()
+        {
+            string returnString = "";
+            return returnString;
+        }
     }
 }

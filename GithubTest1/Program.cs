@@ -7,7 +7,7 @@ namespace GithubTest1
         static void Main(string[] args)
         {
             Console.WriteLine("This is a Github test. This line was added in Visual Studio.");
-            Console.WriteLine("This line was added in Github.")
+            Console.WriteLine("This line was added in Github.");
         }
     }
 }

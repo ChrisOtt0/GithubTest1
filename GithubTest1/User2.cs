@@ -10,7 +10,7 @@ namespace GithubTest1
     {
         public static string GetName()
         {
-            string returnString = "GSittrup i;";
+            string returnString = "GSittrup i; dis is nice";
             return returnString;
         }
     }

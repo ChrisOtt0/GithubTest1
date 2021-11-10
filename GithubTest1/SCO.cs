@@ -8,7 +8,7 @@ namespace GithubTest1
 {
     class SCO
     {
-        public string GetName()
+        public static string GetName()
         {
             string returnString = "Christoffer";
             return returnString;

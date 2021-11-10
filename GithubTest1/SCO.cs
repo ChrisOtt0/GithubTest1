@@ -13,5 +13,10 @@ namespace GithubTest1
             string returnString = "ChrisOtt0 OwO";
             return returnString;
         }
+
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }

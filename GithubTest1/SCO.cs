@@ -14,9 +14,20 @@ namespace GithubTest1
             return returnString;
         }
 
-        public static int Add(int a, int b)
+        public static string Add(int a, int b)
         {
-            return a + b;
+            string lol1 = Convert.ToString(a);
+            string lol2 = Convert.ToString(b);
+
+            string lolCombined = lol1 + lol2;
+
+            return lolCombined;
+        }
+
+        public static void MergeIssues()
+        {
+            string lol = Add(6, 9);
+            Console.WriteLine(lol);
         }
     }
 }
